@@ -1,0 +1,21 @@
+# Entorno virtual de desarrollo
+.venv/
+venv/
+
+# Bytecode de Python
+__pycache__/
+*.py[cod]
+
+# Artefactos de PyInstaller (se regeneran con build.spec)
+build/work/
+build/dist/
+
+# Dependencias offline descargadas por build/fetch_wheels.py
+temp/
+
+# Logs de ejecución
+logs/
+
+# Sistema
+Thumbs.db
+desktop.ini
